@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 const Home = () => {
@@ -17,13 +17,13 @@ const Home = () => {
             <button className="flex items-center px-6 py-3 my-2 text-white rounded-md w-fit bg-gradient-to-r from-cyan-500 to-blue-500 group">
               Portfolio{" "}
               <span className="duration-300 group-hover:rotate-90">
-                <MdOutlineKeyboardArrowRight />
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </button>
           </div>
         </div>
         <div className="">
-            <img src={HeroImage} alt="my profile" className="pb-20 h-118 w-96" />
+            <img src={HeroImage} alt="my profile" className=" mt-9 h-118 w-96 rounded-2xl" />
         </div>
       </div>
     </div>
