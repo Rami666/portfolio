@@ -1,7 +1,7 @@
 import React from "react";
-import quizapp from "../assets/portfolio/quizapp.png";
-import gooddeed from "../assets/portfolio/good-deed.png";
-import calculator from "../assets/portfolio/calculatorapp.png";
+import quizapp from "../assets/portfolio/quizapp.jpg";
+import gooddeed from "../assets/portfolio/good-deed.jpg";
+import calculator from "../assets/portfolio/calculatorapp.jpg";
 import chatapp from "../assets/portfolio/chatapp.png";
 import excuseapp from "../assets/portfolio/excuseapp.png";
 import weatherapp from "../assets/portfolio/weatherapp.png";
@@ -57,7 +57,7 @@ function Portfolio() {
   return (
     <div
       name="portfolio"
-      className="w-full text-white bg-gradient-to-b from-black to-gray-800 md:h-screen"
+      className="w-full pb-20 text-white bg-gradient-to-b from-black to-gray-800 md:h-screen"
     >
       <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto">
         <div className="pb-8">
