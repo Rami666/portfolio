@@ -5,11 +5,11 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-screen pt-9 bg-gradient-to-b from-black to-gray-800 via-black">
-      <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-4 mx-auto md:flex-row ">
-        <div className="flex flex-col justify-center h-full pt-5">
+    <div name="home" className="w-full h-screen pt-20 bg-gradient-to-b from-black to-gray-800 via-black">
+      <div className="flex flex-col items-center justify-center h-full max-w-screen-lg px-4 mx-auto md:flex-row">
+        <div className="flex flex-col justify-center h-full pt-12">
           <h2 className="text-4xl font-bold text-white sm:text-7xl">I'm a Full Stack Developer</h2>
-          <p className="max-w-md py-4 text-gray-500">
+          <p className="max-w-md text-gray-500">
           I am a highly motivated Jr. Web Developer with experience in both backend and frontend development. My goal is to create fast, reliable, and user-friendly web applications. Eager to deliver high-quality solutions that meet the needs of your clients and users.
           </p>
           <div>

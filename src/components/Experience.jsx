@@ -9,7 +9,6 @@ import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import scss from "../assets/scss.png";
 
 function Experience() {
   const techs = [
@@ -73,19 +72,13 @@ function Experience() {
       title: "Tailwind CSS",
       style: "shadow-cyan-500",
     },
-    {
-        id: 11,
-        src: scss,
-        title: "SCSS",
-        style: "shadow-pink-500",
-        },
   ];
   return (
     <div
       name="experience"
       className="w-full h-screen pt-20 bg-gradient-to-b from-gray-800 to-black"
     >
-      <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto text-white">
+      <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 pt-20 mx-auto text-white">
         <div>
           <p className="inline p-2 text-4xl font-bold border-b-4 border-gray-500">
             Experience

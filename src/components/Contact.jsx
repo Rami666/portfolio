@@ -6,7 +6,7 @@ function Contact() {
       name="contact"
       className="w-full h-screen p-4 pt-20 text-white bg-gradient-to-b from-black to-gray-800"
     >
-      <div className="flex flex-col justify-center h-full max-w-screen-lg p-4 mx-auto">
+      <div className="flex flex-col justify-center h-full max-w-screen-lg p-4 pt-20 mx-auto">
         <div className="pb-8">
           <p className="inline text-4xl font-bold border-b-4 border-gray-500">
             Contact

@@ -57,10 +57,10 @@ function Portfolio() {
   return (
     <div
       name="portfolio"
-      className="w-full pb-20 text-white bg-gradient-to-b from-black to-gray-800 md:h-screen"
+      className="w-full pt-20 pb-20 text-white bg-gradient-to-b from-black to-gray-800 md:h-screen"
     >
-      <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 mx-auto">
-        <div className="pb-8">
+      <div className="flex flex-col justify-center w-full h-full max-w-screen-lg p-4 pt-20 mx-auto">
+        <div className="pt-20 pb-8">
           <p className="inline text-4xl font-bold border-b-4 border-gray-500">
             Portfolio
           </p>
