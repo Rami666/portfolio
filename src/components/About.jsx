@@ -12,7 +12,7 @@ function About() {
             About
           </p>
         </div>
-        <p className="mt-20 text-xl">
+        <p className="mt-5 text-xl">
         As a Junior Web Developer, I bring together a fusion of creative flair and technical expertise. My mission is straightforward: to craft web applications that excel in speed, reliability, and user-friendliness, ultimately leaving users delighted.
           <br />
           <br />
