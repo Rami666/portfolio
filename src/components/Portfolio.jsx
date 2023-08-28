@@ -9,7 +9,7 @@ import weatherapp from "../assets/portfolio/weatherapp.png";
 function Portfolio() {
   const portfolios = [
     {
-      id: 1,
+      id: 3,
       src: quizapp,
       href: "https://danzekram-quiz-game.netlify.app/",
       href2: "https://github.com/ezekielbuzzi/quiz-app",
@@ -20,7 +20,7 @@ function Portfolio() {
       href2: "https://github.com/LalaChristl/GoodDeeds",
     },
     {
-      id: 3,
+      id: 1,
       src: calculator,
       href: "https://eloquent-chebakia-b37ed1.netlify.app/",
       href2: "https://github.com/Rami666/calculator-",

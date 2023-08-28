@@ -43,7 +43,7 @@ function Experience() {
       style: "shadow-gray-500",
     },
     {
-      id: 6,
+      id: 8,
       src: graphql,
       title: "GraphQL",
       style: "shadow-pink-500",
@@ -55,7 +55,7 @@ function Experience() {
       style: "shadow-green-500",
     },
     {
-      id: 8,
+      id: 6,
       src: mongo,
       title: "Mongo DB",
       style: "shadow-green-500",
