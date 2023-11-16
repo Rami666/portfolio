@@ -9,6 +9,8 @@ import node from "../assets/node.png";
 import mongo from "../assets/mongo.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import typescript from "../assets/typescript.png";
+import jquery from "../assets/jquery.png";
 
 function Experience() {
   const techs = [
@@ -38,39 +40,51 @@ function Experience() {
     },
     {
       id: 5,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-blue-900",
+    },
+    {
+      id: 6,
       src: nextjs,
       title: "Next JS",
       style: "shadow-gray-500",
     },
     {
-      id: 8,
+      id: 7,
       src: graphql,
       title: "GraphQL",
       style: "shadow-pink-500",
     },
     {
-      id: 7,
+      id: 8,
       src: node,
       title: "Node JS",
       style: "shadow-green-500",
     },
     {
-      id: 6,
+      id: 9,
       src: mongo,
       title: "Mongo DB",
       style: "shadow-green-500",
     },
     {
-      id: 9,
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-500",
     },
     {
-      id: 10,
+      id: 11,
       src: tailwind,
       title: "Tailwind CSS",
       style: "shadow-cyan-500",
+    },
+    {
+      id: 12,
+      src: jquery,
+      title: "jQuery",
+      style: "shadow-cyan-300",
     },
   ];
   return (
